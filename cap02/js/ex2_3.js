@@ -15,5 +15,4 @@ frm.addEventListener("submit", (e) => {
     resp3.innerText = `+12x de R$: ${parcela.toFixed(2)}`
 
     e.preventDefault()
-
 })

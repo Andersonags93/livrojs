@@ -6,7 +6,7 @@ frm.addEventListener("submit", (e) => {
     const consumo = Number(frm.inConsumo.value)
     
     const valor = (quilo / 1000) * consumo
-    resp.innerText = ˋValor a pagar R$: ${valor.toFixed(2)}ˋ
+    resp.innerText = `Valor a pagar R$: ${valor.toFixed(2)}`
     
     e.preventDefault()
 })
