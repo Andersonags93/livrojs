@@ -9,7 +9,7 @@ frm.addEventListener("submit", (e) => {
     const saque = Number(frm.inSaque.value)
 
     if (saque % 10 != 0) { // Se saque não é multiplo de 10
-        alert("Valor inválido para notas disponíveis (R$ 10, 50, 100")
+        alert("Valor inválido para notas disponíveis (R$ 10, 50, 100)")
         frm.inSaque.focus()
         return
     }
