@@ -1,4 +1,4 @@
-// c) Elaborar um programa que leia um número - que deve seruma centena. calcule e exiba a centena invertida. Caso o número não seja uma centena, exiba uma mensagem.
+// c) Elaborar um programa que leia um número - que deve ser uma centena. calcule e exiba a centena invertida. Caso o número não seja uma centena, exiba uma mensagem.
 
 const prompt = require("prompt-sync")()
 const numero = Number(prompt("Número (centena): "))
